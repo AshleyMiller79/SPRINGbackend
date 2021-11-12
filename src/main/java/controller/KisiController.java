@@ -37,7 +37,7 @@ public class KisiController {
 		this.kisiService = kisiService;
 	}
 
-	@GetMapping//(path="/kisiler")//kisiservice nin içindeki tumkisilerigetir metoduna git		
+	@GetMapping       //kisiservice nin içindeki tumkisilerigetir metoduna git		
 	public List <Kisi> kisileriGetir() {
 		return kisiService.tumKisileriGetir();
 	}
